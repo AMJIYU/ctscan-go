@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 项目结构说明
+
+本项目分为前端和后端两部分：
+
+- **[web/](mdc:web)**：前端代码目录，包含基于 Vue 的 SPA 应用，主要源码位于 [web/src/](mdc:web/src)。
+- **[server/](mdc:server)**：后端代码目录，基于 Go 语言，包含主程序入口 [server/main.go](mdc:server/main.go) 及核心业务逻辑 [server/internal/](mdc:server/internal)。
+- 其他目录如 [docs/](mdc:docs) 用于文档，[README.md](mdc:README.md) 提供项目说明。
+
+建议：
+- 前端开发主要关注 web/src 及其子目录。
+- 后端开发主要关注 server/internal 及其子目录。
